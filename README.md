@@ -15,13 +15,6 @@ We performed detailed EDA to understand correlations between features and ASD li
 - **Screening Results**: Higher screening scores correspond to ASD-positive predictions.
 - **Pie Chart Insight**: Dataset is imbalanced (76.9% non-ASD vs 23.1% ASD).
 
-<div align="center">
-  <img src="screenshots/eda1.png" width="400"/>
-  <img src="screenshots/eda2.png" width="400"/>
-  <img src="screenshots/eda3.png" width="400"/>
-  <img src="screenshots/eda4.png" width="300"/>
-</div>
-
 ## 🧬 Dataset
 
 We use ASD screening data from publicly available sources, including:
@@ -47,3 +40,24 @@ Model performance is evaluated using:
 - ROC-AUC curve
 
 ## 📂 Project Structure
+ASD-Prediction/
+├── data/
+├── notebooks/
+├── models/
+├── outputs/ (for plots)
+├── app/ (if applicable)
+├── README.md
+└── requirements.txt
+
+## 🚀 How to Run
+
+bash
+# Clone the repo
+git clone https://github.com/your-username/asd-prediction.git
+cd asd-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook notebooks/asd_analysis.ipynb
